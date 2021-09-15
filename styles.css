@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.map-overlay {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+}
+.map-overlay-bottom {
+  display: flex;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+  border-radius: 10px;
+  font-size: 1.1em;
+  content: '';
+  bottom: 300px;
+  width: 0px;
+  background-color: #fc3c3c;
+}
+}
